@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first{
+    background-image: url(./Images/1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logoo{
+    width: 90%;
+    margin: auto;
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    opacity: 1;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+.page a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.page h4{
+    font-weight: bold;
+}
+.page a:hover{
+    color: rgb(190, 181, 181);
+}
+.carservice{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.carservic{
+    margin-top: 170px;
+}
+.carservic h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 12px;
+}
+.carservic h1{
+    font-size: 64px;
+    color: white;
+}
+.ferrarired img{
+    width: 100%;
+}
+.second{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+
+}
+.box{
+    width: 45%;
+    position: relative;
+}
+.ferrarired{
+    padding: 50px 0px 50px 50px;
+    width: 120%;
+    position: absolute;
+}
+.containerblack{
+    height: 72vh;
+    width: 85%;
+    background-color: black;
+    z-index: -4;
+}
+.secondb{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 0px;
+    align-content: space-between;
+    height: 60vh;
+    
+}
+.second1{
+    padding: 4px 0px;
+    background-color: black;
+    display: inline;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+.second2{
+    margin: 28px 0px;
+}
+.second4{
+    margin: 28px 250px 24px 0px;
+}
+.second2 h2{
+    font-size: 36px;
+    color: rgb(85, 81, 81);
+}
+.second3 h3{
+    font-size: 24px;
+}
+.second5 a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    background-color: black;
+}
+.second5{
+    margin-top: 12px;
+}
+.third{
+    width: 85%;
+    height: 20vh;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.thirda{
+    width: 30%;
+}
+.thirdb{
+    display: flex;
+    width: 40%;
+    margin-top: 8px;
+    justify-content: space-between;
+    margin-left: 48px;
+}
+.thirdb p{
+    font-size: 82px;
+}.thirdb h6{
+    font-size: 18px;
+}
+.thirda p{
+    line-height: 4vh;
+}
+.second5 a:hover{
+    color: black;
+    background: rgb(169, 164, 164);
+}
+.four{
+    width: 100%;
+    height: 160vh;
+    background-color: black;
+}
+.foura{
+    width: 90%;
+    height: 35vh;
+    margin: auto;
+    display: flex;
+}
+.fouraa img{
+    width: 100%;
+}
+.fouraa{
+    width: 40%;
+    padding: 50px 0px;
+    position: relative;
+    top: 0;
+}
+.fouraa1{
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+}
+.fora{
+    width: 83%;
+    background-color: rgb(231, 70, 70);
+    height: 47vh;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    z-index: 0;
+}
+.foura1{
+    color: white;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.foura1 h2{
+    font-size: 36px;
+    color: rgb(231, 70, 70);
+}
+.foura1 p{
+    line-height: 4vh;
+}
+.fourb{
+    display: flex;
+    width: 90%;
+    height: 55vh;
+    margin: auto;
+    color: white;
+}
+.fourba{
+    margin-top: 250px;
+    width: 43%;
+}
+.fourba h2{
+    line-height: 4vh;
+}
+.fourba p{
+    line-height: 3vh;
+    margin: 24px 0px;
+}
+.fourba a{
+    text-decoration: none;
+    padding: 10px 28px;
+    background-color: rgb(231, 70, 70);
+    font-size: 18px;
+    color: white;
+}
+.fourba a:hover{
+    background-color: rgb(198, 42, 42);
+    color: rgb(188, 178, 178);
+}
+.fourbb{
+    margin-top: 100px;
+}
+.fourc{
+    width: 90%;
+    height: 35vh;
+    display: flex;
+}
+.fourc1 img{
+    width: 100%;
+}
+.fourc1{
+    width: 50%;
+    margin: 160px 50px 0px 100px;
+}
+.fourc2{
+    margin-top: 230px;
+    color: white;
+    margin-left: 100px;
+    font-size: 24px;
+}
+.fourc2 a{
+    text-decoration: none;
+    padding: 10px 28px;
+    background-color: rgb(231, 70, 70);
+    font-size: 18px;
+    color: white;
+    margin-top: 48px;
+    margin-left: 87px;
+}
+.fourc2 a:hover{
+    background-color: rgb(198, 42, 42);
+    color: rgb(188, 178, 178);
+}
+.five{
+    width: 90%;
+    height: 120vh;
+}
+.fivea{
+    width: 90%;
+    height: 60vh;
+    margin-top: 50px;
+}
+.ourtech{
+    text-align: center;
+    width: 120%;
+    font-size: 24px;
+    color: rgb(231, 70, 70);
+}
+.trak img{
+    width: 100%;
+}
+.trak{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42px;
+}
+.trak1{
+    width: 30%;
+    margin: 50px 50px 0px 50px;
+}
+.trak1 p{
+    font-size: 18px;
+    font-weight: 900;
+}
+.fiveb{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.fiveb1 img{
+    width: 50%;
+    margin-left: 100px;
+}
+.fiveb1{
+    width: 70%;
+    margin-bottom: 100px;
+
+}
+.fiveb{
+    width: 100%;
+}
+.fiveb2{
+    padding: 24px;
+    width: 30%;
+}
+.fiveb2 h2{
+    font-size: 36px;
+    color: rgb(231, 70, 70);
+    padding-bottom: 24px;
+}
+.fiveb2 p{
+    color: gray;
+    padding-top: 24px;
+}
+#fer{
+    color: rgb(87, 87, 87);
+    font-weight: 900;
+}
+.six{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: 50px;
+}
+.sixa{
+    width: 50%;
+}
+.sixa img{
+    width: 100%;
+    height: 61.9vh;
+}
+.sixb{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.sixbb{
+    display: flex;
+   
+}
+.sixb1{
+    width: 50%;
+}
+.sixb1 img{
+    width: 100%;
+}
+.sixb2{
+    width: 50%;
+    color: gray;
+}
+.sixb3{
+    width: 50%;
+    color: white;
+    background-color: rgb(231, 70, 70);
+}
+.sixb3 h2{
+    font-size: 32px;
+    margin-left: 24px;
+    margin-top: 50px;
+}
+.sixb3 p{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.sixb2 h2{
+    font-size: 32px;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+.sixb2 p{
+    margin-top: 24px;
+}
+.sixb2 a{
+    text-decoration: none;
+    margin-left: 24px;
+    margin-top: 12px;
+    padding: 12px 24px;
+    background-color: rgb(231, 70, 70);
+    color: white;
+}
+.sixb2 a:hover{
+    background-color: rgb(95, 23, 23);
+    color: rgb(185, 184, 184);
+}
+.seven{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.sevena {
+    width: 50%;
+}
+.sevena h2{
+    font-size: 22px;
+}
+.sevena h3{
+    margin-top: 24px;
+    font-size: 26px;
+    color: grey;
+}
+.seven h4{
+    font-size: 24px;
+    margin: 24px 0px;
+}
+.icona{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.icona a{
+    text-decoration: none;
+    font-size: 36px;
+    color: gray;
+}
+.seven h5{
+    margin-top: 24px;
+    font-size: 22px;
+}
+.icona a:hover{
+    color: lightgray;
+}
+.sevenb{
+    width: 50%;
+}
+input{
+    width: 80%;
+    height: 4vh;
+    margin: 5px 0px;
+    background-color: rgb(241, 238, 238);
+    border: none;
+}
+textarea{
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(241, 238, 238);
+    border: none;
+}
+button{
+    padding: 12px 36px;
+    margin-top: 12px;
+    color: white;
+    background-color: rgb(231, 70, 70);
+    border: none;
+}
+.eight{
+    width: 100%;
+    height: 18vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 50px;
+}
+.eight p{
+    padding-top: 48px;
+}
+footer{
+    background-color: lightgray;
+    width: 100%;
+    height: 12vh;
+}
+footer p{
+    text-align: center;
+    padding-top: 24px;
+    color: white;
+}
+footer a{
+    color: rgb(43, 208, 226);
+}
